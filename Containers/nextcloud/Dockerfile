@@ -202,6 +202,7 @@ RUN set -ex; \
         postgresql-client \
         tzdata \
         mawk \
+        grep \
     ; \
     rm -rf /var/lib/apt/lists/*
 
